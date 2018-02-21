@@ -17,7 +17,6 @@
                                                                   documentAttributes:NULL
                                                                                error:NULL];
         [UIPasteboard generalPasteboard].items = @[@{@"Apple Web Archive pasteboard type": archive, (id)kUTTypeUTF8PlainText: [decodedString string]}];
-        NSLog(@"%@", [UIPasteboard generalPasteboard].items);
         CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:archive];
         [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
