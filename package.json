@@ -3,34 +3,33 @@
      "version": "0.1.0",
      "description": "Clipboard management plugin for Cordova/PhoneGap",
      "cordova": {
-         "id": "com.verso.cordova.clipboard",
-         "platforms": [
-             "ios",
-             "android",
-             "wp8"
-         ]
+          "id": "com.verso.cordova.clipboard",
+          "platforms": [
+               "android",
+               "ios",
+               "wp8"
+          ]
      },
      "repository": {
-         "type": "git",
-         "url": "git+https://github.com/Anuj-logiciel/CordovaClipboard.git"
+          "type": "git",
+          "url": "https://github.com/Anuj-logiciel/CordovaClipboard"
      },
      "keywords": [
-         "clipboard",
-         "copy",
-         "paste",
-         "ecosystem:cordova",
-         "cordova-ios",
-         "cordova-android",
-         "cordova-wp8"
+          "cordova",
+          "ecosystem:cordova",
+          "cordova-android",
+          "cordova-ios",
+          "cordova-wp8",
+          "clipboard",
+          "copy",
+          "paste"
      ],
-     "engines": [{
-         "name": "cordova",
-         "version": ">=3.0.0"
-     }],
-     "author": "",
-     "license": "MIT",
-     "bugs": {
-         "url": "https://github.com/Anuj-logiciel/CordovaClipboard/issues"
-     },
-     "homepage": "https://github.com/Anuj-logiciel/CordovaClipboard#readme"
- } 
+     "engines": [
+          {
+          "name": "cordova",
+          "version": ">=3.0.0"
+          }
+     ],
+     "author": "Verso Solutions LLC",
+     "license": "MIT"
+}
